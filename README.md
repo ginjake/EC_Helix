@@ -37,7 +37,6 @@ Helix Keyboardの基板を差し替え、静電容量スイッチに対応させ
 | PCB | 1枚 | | |
 | 静電容量キースイッチ | 32個 | Varmilo ECスイッチのみ対応 | |
 | スイッチ用PCBソケット | 32個 | MX用 | https://yushakobo.jp/shop/a01ps/ |
-| 絶縁テープ | 1つ | | |
 | 1608(0603)チップ抵抗 100K | 7 | | https://www.sengoku.co.jp/mod/sgk_cart/detail.php?code=EEHD-57HD |
 | 1608(0603)チップ抵抗 10K | 2 | | https://www.sengoku.co.jp/mod/sgk_cart/detail.php?code=EEHD-57GX |
 | 1608(0603)チップ抵抗 1KΩ | 2| | https://www.sengoku.co.jp/mod/sgk_cart/detail.php?code=EEHD-57GK |
@@ -53,3 +52,27 @@ Helix Keyboardの基板を差し替え、静電容量スイッチに対応させ
 | 名前 | 数 | 備考 | 入手先 |
 | ---- | ---- | --- | ---- |
 | ヒートクリップ | 1つ | | |
+| 絶縁テープ | 1つ | | |
+
+
+
+## 組み立て方
+以降は左手用で説明します。右手用はPCBを反転して下さい。
+
+__一度全ての工程を読み、理解してから作業を進めることをお勧めします。__
+
+OLED,LED,TRRSジャック等のHelixの共通部分については省略します。
+ただし、キースイッチは直接はんだづけしないでください
+
+## 最初に絶縁テープを貼る
+将来的にProMicroが刺さるところに絶縁テープを貼ります
+![image](https://user-images.githubusercontent.com/16838187/83887616-a8a28900-a783-11ea-9be4-f0edcfd9118e.png)
+
+## 裏側に各種パーツを実装する
+基板をひっくり返し、各種パーツを実装します
+![ポンチ図](https://user-images.githubusercontent.com/16838187/83891190-c2de6600-a787-11ea-8927-8929d10d0dcb.png)
+
+74HC4051DB　と オペアンプＡＤ８６１６ＡＲＭの向きには注意してください。
+また、熱に弱いためヒートクリップ等を使うことをおすすめします
+
+
