@@ -32,8 +32,20 @@ Helix Keyboardの基板を差し替え、静電容量スイッチに対応させ
 
 
 ### 本家とことなる部品
-| 名前 | 数 | 備考 |
-| ---- | ---- | --- |
-| PCB | 1枚 | |
-| 静電容量キースイッチ | 32個 | Varmilo ECスイッチのみ対応 |
-| 絶縁テープ | 1つ | |
+| 名前 | 数 | 備考 | 入手先 |
+| ---- | ---- | --- | ---- |
+| PCB | 1枚 | | |
+| 静電容量キースイッチ | 32個 | Varmilo ECスイッチのみ対応 | |
+| 絶縁テープ | 1つ | | |
+| 1608(0603)チップ抵抗 100K | 7 | | https://www.sengoku.co.jp/mod/sgk_cart/detail.php?code=EEHD-57HD |
+| 1608(0603)チップ抵抗 10K | 2 | | https://www.sengoku.co.jp/mod/sgk_cart/detail.php?code=EEHD-57GX |
+| 1608(0603)チップ抵抗 1KΩ | 2| | https://www.sengoku.co.jp/mod/sgk_cart/detail.php?code=EEHD-57GK |
+| 1608(0603)チップ抵抗 200Ω | 6 | | https://www.sengoku.co.jp/mod/sgk_cart/detail.php?code=EEHD-57FZ |
+| 1608(0603)チップ抵抗 51KΩ | 1 | | https://www.sengoku.co.jp/mod/sgk_cart/detail.php?code=EEHD-57H7 |
+| 1608チップ積層セラミックコンデンサー 50Vdc 220pF | 1 | GRM1882C1H221JA01D*A (10個入り)| https://www.marutsu.co.jp/GoodsDetail.jsp?salesGoodsCode=19297&shopNo=3 |
+|チップ積層セラミックコンデンサー　１５０ｐＦ５０Ｖ　ＣＨ　１６０ | | | http://akizukidenshi.com/catalog/g/gP-09236/ |
+|チップトランジスタ　２ＳＣ２７１２－ＧＲ　５０Ｖ１５０ｍ | 1 | | http://akizukidenshi.com/catalog/g/gI-00761/ |
+| 74HC4051DB IC MUX/DEMUX 8X1 16SSOP | 1 | | https://www.marutsu.co.jp/pc/i/24340308/ |
+| ２回路入オペアンプＡＤ８６１６ＡＲＭ | 1 | | http://akizukidenshi.com/catalog/g/gI-04570/ |
+
+
