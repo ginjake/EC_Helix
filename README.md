@@ -46,7 +46,7 @@ Helix Keyboardの基板を差し替え、静電容量スイッチに対応させ
 |チップトランジスタ　２ＳＣ２７１２－ＧＲ　５０Ｖ１５０ｍ | 1 | | http://akizukidenshi.com/catalog/g/gI-00761/ |
 | 74HC4051DB IC MUX/DEMUX 8X1 16SSOP | 1 | | https://www.marutsu.co.jp/pc/i/24340308/ |
 | ２回路入オペアンプＡＤ８６１６ＡＲＭ | 1 | | http://akizukidenshi.com/catalog/g/gI-04570/ |
-
+| ジャンパ用の銅線 | 少し | | |
 
 ## 追加で必要な工具
 | 名前 | 数 | 備考 | 入手先 |
@@ -68,11 +68,49 @@ OLED,LED,TRRSジャック等のHelixの共通部分については省略しま�
 将来的にProMicroが刺さるところに絶縁テープを貼ります
 ![image](https://user-images.githubusercontent.com/16838187/83887616-a8a28900-a783-11ea-9be4-f0edcfd9118e.png)
 
+## 左右をジャンパ
+絶縁テープの上から、写真のようにジャンパしていきます
+![image](https://user-images.githubusercontent.com/16838187/83893604-1d2cf600-a78b-11ea-9552-fb847786772a.png)
+
+## 絶縁テープ
+ジャンパの上に絶縁テープを貼ります
+![image](https://user-images.githubusercontent.com/16838187/83893829-73019e00-a78b-11ea-98b6-a781e42b639f.png)
+
 ## 裏側に各種パーツを実装する
 基板をひっくり返し、各種パーツを実装します
 ![ポンチ図](https://user-images.githubusercontent.com/16838187/83891190-c2de6600-a787-11ea-8927-8929d10d0dcb.png)
 
+## その他のパーツを実装する
+下記画像のパーツを実装していきます。
+片面にしかパッドがないため、
+右手側なら裏側に、左手側なら表側への実装となります
+![ポンチ図2](https://user-images.githubusercontent.com/16838187/83897147-29678200-a790-11ea-98a0-5f82ccec384a.png)
+![ポンチ図3](https://user-images.githubusercontent.com/16838187/83898727-443af600-a792-11ea-9359-abdeb232eadb.png)
+
 74HC4051DB　と オペアンプＡＤ８６１６ＡＲＭの向きには注意してください。
 また、熱に弱いためヒートクリップ等を使うことをおすすめします
 
+## リセットスイッチ
+本家と同じです。
 
+
+## OLEDをつける(オプション)
+本家と同じです
+
+## backLightLEDをつける(オプション)
+本家と同じです
+LEDテープによるunderglowには対応していません
+
+## TRRSジャックをつける
+両手分つくる場合は必要になります。
+本家と同じです
+
+## スイッチソケットの実装
+本家ではキースイッチを直接はんだ付けしていますが、
+こちらでははんだ付けせず、代わりにスイッチソケットをはんだ付けします。
+![image](https://user-images.githubusercontent.com/16838187/83894498-56199a80-a78c-11ea-884e-bf0ec07e8688.png)
+
+## トッププレートとボトムプレート
+本家と同じです。
+ステンレスプレートでの動作は検証出来ていないので
+実験した方がいましたら教えて頂けると幸いです
