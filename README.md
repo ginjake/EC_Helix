@@ -1,4 +1,4 @@
-# 静電容量Helixベータ ビルドガイド
+# 静電容量Helix(Varmilo) ビルドガイド
 ## 静電容量Helixとは？
 Helix Keyboardの基板を差し替え、静電容量スイッチに対応させる為のパーツです  
 本家Helixとの共通部分については省略しています
@@ -57,7 +57,7 @@ Varmilo EC Rose
 | 1608チップ積層セラミックコンデンサー 50Vdc 220pF | 1 | GRM1882C1H221JA01D*A (10個入り)| https://www.marutsu.co.jp/GoodsDetail.jsp?salesGoodsCode=19297&shopNo=3 |
 |チップトランジスタ　２ＳＣ２７１２－ＧＲ　５０Ｖ１５０ｍ | 1 | | http://akizukidenshi.com/catalog/g/gI-00761/ |
 | 74HC4051DB IC MUX/DEMUX 8X1 16SSOP | 1 | | https://www.marutsu.co.jp/pc/i/24340308/ |
-| ２回路入オペアンプＡＤ８６１６ＡＲＭ | 1 | | http://akizukidenshi.com/catalog/g/gI-04570/ |
+| ２回路入オペアンプAD8616ARM | 1 | | http://akizukidenshi.com/catalog/g/gI-04570/ |
 | ジャンパ用の銅線 | 少し | | |
 
 ## 追加で必要な工具
@@ -90,7 +90,21 @@ OLED,LED,TRRSジャック等のHelixの共通部分については省略しま�
 
 ## 裏側に各種パーツを実装する
 基板をひっくり返し、各種パーツを実装します  
-![ポンチ図](https://user-images.githubusercontent.com/16838187/83891190-c2de6600-a787-11ea-8927-8929d10d0dcb.png)
+一番難易度の高い、74HC4051DBからつけることを推奨します。  
+74HC4051DB　と オペアンプAD8616ARMの向きには注意してください。    
+また、熱に弱いためヒートクリップ等を使うことをおすすめします。   
+温度調節機能付きハンダコテの場合は300度以下にしたほうがよいかもしれません。  
+
+それぞれの向きは下記のようになります 。  
+チップ部品に文字や印が書いてあるので、それを参考に合わせてください。  
+![image](https://user-images.githubusercontent.com/16838187/87220234-1b171200-c39d-11ea-9f6a-1e15fdba3d55.png)
+  
+AD8616ARM  
+![image](https://user-images.githubusercontent.com/16838187/87220280-69c4ac00-c39d-11ea-935c-b0959e111c55.png)
+  
+
+それ以外のパーツは、次のようになります  
+![ポンチ図](https://user-images.githubusercontent.com/16838187/87218828-4ac01d00-c391-11ea-9f25-194563ae06af.png)
 
 ## その他のパーツを実装する
 下記画像のパーツを実装していきます。  
